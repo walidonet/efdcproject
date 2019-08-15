@@ -1,0 +1,3 @@
+ss_global_homepage:
+    path:     /
+    defaults: { _controller: SSGlobalBundle:Default:index }

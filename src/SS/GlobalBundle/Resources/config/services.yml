@@ -1,0 +1,4 @@
+services:
+#    ss_global.example:
+#        class: SS\GlobalBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

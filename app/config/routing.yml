@@ -1,0 +1,15 @@
+ss_user:
+    resource: "@SSUserBundle/Resources/config/routing.yml"
+    prefix:   /user
+
+ss_global:
+    resource: "@SSGlobalBundle/Resources/config/routing.yml"
+    prefix:   /global
+
+ss_front:
+    resource: "@SSFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
