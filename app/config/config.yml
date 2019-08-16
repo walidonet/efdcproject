@@ -12,7 +12,9 @@ framework:
     #esi: ~
     templating:
         engines: ['twig']
-    translator: { fallbacks: ["%locale%"] }
+    translator:
+        paths:
+            - '%kernel.project_dir%/src/SS/FrontBundle/Resources/translations'
     secret: '%secret%'
     router:
         resource: '%kernel.project_dir%/app/config/routing.yml'

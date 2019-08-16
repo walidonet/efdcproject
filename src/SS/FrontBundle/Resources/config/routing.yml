@@ -2,7 +2,7 @@ ss_front_homempage:
     path:     /x
     defaults: { _controller: SSFrontBundle:Default:index }
 ss_front_homepage:
-    path:     /
+    path:     /{_locale}/
     defaults: { _controller: SSFrontBundle:Home:index }
     requirements:
         _locale: en|fr|ar
